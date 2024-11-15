@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from "react";
 import { useHttp } from "../hooks/http.hook";
 
@@ -15,7 +16,7 @@ const ActorInfoApi = () => {
   const getActorInfo = async () => {
     try {
       const res = await request(_apiActorInfo);      
-      // console.log(res);
+      console.log(res);
       
       setActor(res);
     } catch (e) {
