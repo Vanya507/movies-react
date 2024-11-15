@@ -4,6 +4,6 @@ import svgr from 'vite-plugin-svgr';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react({ jsxImportSource: '@emotion/react' }), svgr()],
+  plugins: [react({ jsxRuntime: 'classic' }), svgr()],
    base: "/movies-react/"
 })
