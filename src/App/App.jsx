@@ -11,7 +11,7 @@ const App = () => {
     return (
       <Router>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage />} basename='/movies-react/'/>
           <Route path="/movieInfoAndCast" element={<MovieInfoAndCast />} />
           <Route path ="/searchedMoviesList" element={<SearchedMovies />}/>
           <Route path ="/actorInfo" element={<ActorInfoAndMovies />}/>

@@ -12,7 +12,7 @@ const SearchMovieApi = (query) => {
   const getMovieInfo = async () => {
     try {
       const res = await request(_apiSearchMovie);
-      // console.log(res);
+      // console.log(res);  
       
       setMovies(res.results);
     } catch (e) {
