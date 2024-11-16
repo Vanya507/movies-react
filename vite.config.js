@@ -7,11 +7,15 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [react(), svgr()],
   build: {
+    outDir: 'dist',
     rollupOptions: {
       input: {
         // eslint-disable-next-line no-undef
         main: resolve(__dirname, 'index.html'),
       },
     },
+  },
+  server: {
+    historyApiFallback: true,
   },
 })
