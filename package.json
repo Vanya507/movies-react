@@ -3,9 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://vanya507.github.io/movies-react/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/movies-react/",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

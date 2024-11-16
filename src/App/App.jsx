@@ -9,9 +9,9 @@ import '../styles/style.scss'
 
 const App = () => {
     return (
-      <Router>
+      <Router basename='/movies-react/'>
         <Routes>
-          <Route path="/" element={<MainPage />} basename='/movies-react/'/>
+          <Route path="/" element={<MainPage />}/>
           <Route path="/movieInfoAndCast" element={<MovieInfoAndCast />} />
           <Route path ="/searchedMoviesList" element={<SearchedMovies />}/>
           <Route path ="/actorInfo" element={<ActorInfoAndMovies />}/>
