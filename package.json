@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Vanya507.github.io/movies-react/",
+  "homepage": "https://vanya507.github.io/movies-react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
