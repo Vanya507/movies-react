@@ -2,11 +2,10 @@
   "name": "movies",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Vanya507.github.io/movies-react/",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/movies-react/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
